@@ -88,7 +88,7 @@ html {
 
 header {
 	position: fixed;
-	width: 100%;
+	width: 98%;
 	transition: 0.4s;
 }
 
@@ -121,6 +121,7 @@ body {
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size:contain;
+	
 }
 
 #teamabout {
@@ -131,12 +132,11 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	transition: 0.4s;
 }
 
 #tacontainer {
 	width: 500px;
-	height: 440px;
+	height: 500px;
 	align-self: center;
 	background-image: linear-gradient(45deg,rgb(0,27,106),rgb(0,139,223),rgb(0,229,225));
 	border-radius: 30px;
@@ -150,7 +150,7 @@ body {
 	border-radius: 28px;
 	background-color: #FFFFFF;
 	width: 496px;
-	height: 436px;
+	height: 496px;
 	align-self: center;
 }
 
