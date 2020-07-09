@@ -277,7 +277,9 @@ body {
 
 .modalcolumn img {
 	width: auto;
-	max-height: 120px;
+	height: auto;
+	max-height: 150px;
+	max-width: 300px;
 }
 
 .modalcolumn p {
