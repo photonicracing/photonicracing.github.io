@@ -118,18 +118,80 @@ function scrollFunction() {
 			<div id="taline"></div>
 			<div id="tatxtdiv">
 				<p id="tatxt">
-				 We are Photonic Racing, a team of three students from Blue Mountains Grammar School, competeing in the F1 in Schools STEM Challenge in 2020. We have each previously taken part in the competition, representing teams Awaken and Thrust Vector/Paradoxum, and have won Regional, State, and National Finals, as well as qualifying for and competing at the F1 in Schools World Finals held in Abu Dhabi in November 2019. We couldn’t get enough of this competition, so we invite you to join us on our next journey through the F1 in Schools STEM Challenge.
+				 We are Photonic Racing, a team of three students from Blue Mountains Grammar School, competeing in the F1 in Schools STEM Challenge in 2020. We have each competed in this competition before in three different teams: Awaken, Thrust Vector, and Paradoxum. We couldn’t get enough of this competition, so we invite you to join us on our next journey through the F1 in Schools STEM Challenge.
 				</p>
 			</div>
-			<!--<div class="taaccord">
-				<button class="tabut">Read More</button>
-			</div>-->
+			<div id="buttoncontainer">
+			<button id="myBtn">Read More</button>
+			</div>
+			<div id="myModal" class="modal">
+  			<div class="modal-content">
+			<div id="modalborder">
+    		<span class="close">&times;</span>
+    		<div id="modalcontainter">
+				<div id="modalintro">
+				Photonic Racing has its roots in three previous teams, all of which has been very successful. Our journies in each of these teams have given us exceptional learning experiences through F1 in Schools, and we have developed invaluable skills that we can take into our future careers. We had such an enriching experience the first time around, we just can't wait to do it again!
+				</div>	
+				<div id="modalcolcontainer">
+					<div class="modalcolumn" id="pdxcol">
+					<h1>Paradoxum</h1>
+				    <img src="Media/PDC6.5.3.2_2019-Oct-26_06-26-20AM-000_CustomizedView17326953594_jpg.jpg" width="3363" height="2039" alt=""/>
+					<div>
+					<p>2019 F1 in Schools World Finalist</p>
+					<p>Digital Media Award</p>
+					</div>	
+					</div>
+					<div class="modalcolumn" id="tvcol">
+					<h1>Thrust Vector</h1>
+				    <img src="Media/TVCN1.1_2018-Nov-13_12-03-49AM-000_CustomizedView7673219936.png" width="3300" height="1422" alt=""/> 
+					<div>
+					<p>2019 Australian National Champions</p>
+					<p>Best Engineered Car</p>
+					<p>Best Engineering CAD</p>
+					<p>Best Manufactured Car</p>
+					<p>Best Team Verbal Presentation</p>
+					<p>Innovation Award</p>
+					</div>
+					</div>
+					<div class="modalcolumn" id="awacol">
+					<h1>Awaken</h1>
+				    <img src="Media/Screen Shot 2020-03-22 at 8.49.33 pm.png" width="2648" height="1580" alt=""/> 
+					<div>
+					<p>2019 Australian National Finalist</p>
+					<p>Chair Of The Judges Recognition Of Achievement Award</p>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+  			</div>
+				<script>
+					
+var modal = document.getElementById("myModal");
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+			</div>
 			</div>
 			</div>
  		 </div>
-			<!--<div class="tapanel">
-				
-			</div>-->
 		<div id="f1sabout">
 		
 		</div>
