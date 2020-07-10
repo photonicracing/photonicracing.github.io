@@ -681,3 +681,79 @@ body {
   	background-size: cover;
 	height: 250px;
 }
+
+#sponsorblockcontainer {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#oursponsors {
+	width: 100%;
+	height: auto;
+	background-image: linear-gradient(45deg,rgb(0,27,106),rgb(0,139,223),rgb(0,229,225));
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+
+.sponsorblock {
+	flex-grow: 1;
+	margin: 25px;
+	border-radius: 30px;
+	height: 300px;
+}
+
+#sponsortitle {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#sponsortitle h1 {
+	padding: 30px;
+}
+
+.sponsorlink {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	border-radius: 30px;
+	transition: 0.4s;
+	background-color: #FFFFFF;
+}
+
+.sponsorlink:hover {
+	background-color: rgba(255,255,255,0);
+}
+
+.sponsorlink:hover div {
+	filter:contrast(0%) brightness(500%);
+}
+
+.sponsorbox {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size:contain;
+	height: 250px;
+	width: 80%;
+	align-self: center;
+	transition: 0.4s;
+}
+
+#simscale {
+	background-image: url("Media/SimScale_logo.png");
+}
+
+#keyshot {
+	background-image: url("Media/keyshot.png");
+}
+
+#tt {
+	background-image: url("Media/TTlogo.png");
+}
