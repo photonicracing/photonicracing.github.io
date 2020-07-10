@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Photonic Racing</title>
+<link href="mobile-styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<script>
+	
+	function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+	
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+	document.getElementById("menubar").style.background = "rgb(255,255,255)";
+	document.getElementById("menubarlogo").src='Media/Name Logo White.png';
+	document.getElementById("html").style.background = "#FFFFFF";
+	document.getElementById("menulinkbox").style.color = "rgb(0,0,0)";
+	document.getElementById("nav1").style.color = "rgb(0,0,0)";
+  } else {
+	document.getElementById("menubar").style.background = "rgba(0,0,0,0.4)";
+	document.getElementById("menubarlogo").src='Media/Name Logo Black.png';
+	document.getElementById("html").style.background = "rgb(0,0,0)";
+	document.getElementById("menulinkbox").style.color = "#FFFFFF";
+	document.getElementById("nav1").style.color = "#FFFFFF";
+  }
+}
+	
+</script>
+</head>
+<header>
+	<div id="menubar">
+	<div id="menubarbox">
+		<div class="menubaricon">
+			<a href="#coverimg"><img src="Media/Name Logo Black.png" id="menubarlogo" alt=""/></a>
+		</div>
+	<div id="menulinkbox">
+		<div class="menubarlink">
+			<a onclick="openNav()" id="nav1">MENU</a>
+		</div>
+		<div class="menubarspacer"></div>
+	</div>
+	</div>
+	</div>
+	<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#teamabout">ABOUT US</a>
+    <a href="#f1sabout">ABOUT F1 IN SCHOOLS</a>
+    <a href="#meetteam">MEET THE TEAM</a>
+    <a href="#sponsorship">SPONSORSHIP</a>
+	 <a href="#mentorship">MENTORSHIP</a>
+	  <a href="#contactus">CONTACTUS</a>
+  </div>
+	</div>
+</header>
+	
+<body>
+	<div id="coverimg" class="coverimg">
+    <img src="Media/PDCR15.0.38.jpg" width="7680" height="4026" alt=""/> 
+	</div>
+	<div id="content">
+		<div id="teamabout" class="contentcontainer">
+			<div class="contentbox" id="tacb">
+				<div class="contentboxborder" id="tacbb">
+				<div id="tatitlediv">
+				<h2 id="tatitle" class="title">
+					About Us
+				</h2>
+			</div>
+			<div id="taline" class="textline"></div>
+			<div id="tatxtdiv">
+				<p id="tatxt" class="textbox">
+				 We are Photonic Racing, a team of three students from Blue Mountains Grammar School, competeing in the F1 in Schools STEM Challenge in 2020. We have each previously taken part in the competition, representing teams Awaken and Thrust Vector/Paradoxum, and have won Regional, State, and National Finals, as well as qualifying for and competing at the F1 in Schools World Finals held in Abu Dhabi in November 2019. We couldn’t get enough of this competition, so we invite you to join us on our next journey through the F1 in Schools STEM Challenge.
+				</p>
+			</div>
+				</div>
+			</div>
+		</div>
+		<div id="f1sabout" class="contentcontainer">
+			<div class="contentbox" id="facb">
+				<div class="contentboxborder" id="facbb">
+				<div id="fatitlediv">
+				<h2 id="fatitle" class="title">
+					About F1 In Schools
+				</h2>
+			</div>
+			<div id="faline" class="textline"></div>
+			<div id="fatxtdiv">
+				<p id="fatxt1" class="textbox">
+				Formula 1 in Schools is a global competition, with over 17,000 school over in 51 countries getting involved. This STEM-based competition is designed to foster and improve student’s skills in Science, Technology, Engineering and Maths, as well as lifelong lessons in communication, leadership, marketing and project management.
+				</p>
+				<p id="fatxt2" class="textbox">
+				Students must design, build and race a miniture F1 car, capable of reaching speeds in excess of 100km/h, create and market a team brand, and produce portfolios documenting their work. Every single aspect of the competition is meticulously assessed and scored.
+				</p>
+				<p id="fatxt3" class="textbox">
+				There are 4 rounds to each season, Regionals, State, Nationals and the World Finals, with the top teams from each stage progressing to the next. We will be competing in the Western Sydney Regionals competition, held in August 2020.
+				</p>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	
+</html>

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */ /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #FFFFFF;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 120px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+html {
+	scroll-behavior: smooth;
+	background: rgb(0,0,0);
+}
+
+#menubar {
+	height: 180px;
+	background: rgba(0,0,0,0.4);
+	transition: 0.4s;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#menubarbox {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	transition: 0.4s;
+}
+
+#menubarlogo {
+	height: 140px;
+	width: auto;
+	padding: 20px;
+	transition: 0.4s;
+}
+
+#menulinkbox {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	align-self: flex-end;
+	transition: 0.4s;
+}
+
+.menubarlink a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	margin-right: 50px;
+}
+
+#coverimg img {
+	width: 100%;
+	height: auto;
+}
+
+header {
+	position: fixed;
+	width: 98%;
+	transition: 0.4s;
+}
+
+.coverimg img {
+	margin-top: 200px;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+}
+
+#content {
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+}
+
+.contentcontainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-content:center;
+}
+
+.contentbox {
+	margin-top: 100px;
+	width: 95%;
+	height: 1100px;
+	background-image: linear-gradient(45deg,rgb(0,27,106),rgb(0,139,223),rgb(0,229,225));
+	border-radius: 60px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.contentboxborder {
+	width: 99%;
+	height: 1080px;
+	margin: 1%;
+	background-color: #FFFFFF;
+	align-self: center;
+	border-radius: 50px;
+}
+
+.title {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.textline {
+	height: 1px;
+	width: 400px;
+	background-color: rgb(0,0,0);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
+	display: block;
+}
+
+.textbox {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+#tacb {
+	height: 1100px;
+}
+
+#tacbb {
+	height: 1080px;
+}
+
+#facb {
+	height: 1500px;
+}
+
+#facbb {
+	height: 1480px;
+}

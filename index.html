@@ -42,6 +42,14 @@
 	</div>
 	</div>
 	<script>
+		
+		if (screen.width <= 699) {
+    document.location = "mobile.html";
+  }
+		
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    location.replace("mobile.html");
+  }
 
 		
 		window.onscroll = function() {scrollFunction()};
@@ -106,7 +114,6 @@ function scrollFunction() {
 	
 <body>
 	<div id="coverimg" class="coverimg">
-	<!--<a id="downarrow" href="#teamabout">&#x2335;</a>-->
 	</div>
 <div id="content">
 		<div id="teamabout" class="teamabout">
