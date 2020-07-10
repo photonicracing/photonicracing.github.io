@@ -305,3 +305,65 @@ body {
 #faimgbox {
 	height: 800px;
 }
+
+#mtline {
+	width: 550px;
+}
+
+#nh {
+	background-image: url("Media/-3830964341078798155_IMG_1590.JPG");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 600px;
+}
+
+#of {
+	background-image: url("Media/5F39C706-EEFB-4963-95B0-215CF4774D08.JPG");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 600px;
+}
+
+#jz {
+	background-image: url("Media/image0.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 600px;
+}
+
+#mtcolcontainer {
+	width: 90%;
+	margin: 5%;
+	text-align: center;
+}
+
+#mtcolcontainer h2 {
+	font-size: 50px;
+}
+
+
+#mtcolcontainer p {
+	font-size: 35px;
+}
+
+.imgline {
+	height: 1px;
+	width: 100%;
+	background-color: rgb(0,0,0);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: block;
+}
+
+#mtcb {
+	height: 3600px;
+}
+
+#mtcbb {
+	height: 3580px;
+}
