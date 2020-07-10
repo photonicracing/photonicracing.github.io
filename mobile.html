@@ -25,12 +25,16 @@ function scrollFunction() {
 	document.getElementById("html").style.background = "rgb(255,255,255)";
 	document.getElementById("menulinkbox").style.color = "rgb(0,0,0)";
 	document.getElementById("nav1").style.color = "rgb(0,0,0)";
+	document.getElementByClassName("overlay").style.backgroundColor = "rgb(255,255,255)";
+	document.getElementByClassName("overlaya").style.backgroundColor = "rgb(0,0,0)";
   } else {
 	document.getElementById("menubar").style.background = "rgba(0,0,0,0.4)";
 	document.getElementById("menubarlogo").src='Media/Name Logo Black.png';
 	document.getElementById("html").style.background = "rgb(0,0,0)";
 	document.getElementById("menulinkbox").style.color = "rgb(255,255,255)";
 	document.getElementById("nav1").style.color = "rgb(255,255,255)";
+	document.getElementByClassName("overlay").style.backgroundColor = "rgb(0,0,0)";
+	document.getElementByClassName("overlaya").style.backgroundColor = "rgb(255,255,255)";
   }
 }
 	
@@ -53,12 +57,13 @@ function scrollFunction() {
 	<div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#teamabout">ABOUT US</a>
-    <a href="#f1sabout">ABOUT F1 IN SCHOOLS</a>
-    <a href="#meetteam">MEET THE TEAM</a>
-    <a href="#sponsorship">SPONSORSHIP</a>
-	 <a href="#mentorship">MENTORSHIP</a>
-	  <a href="#contactus">CONTACTUS</a>
+    <a class="overlaya" href="#teamabout">ABOUT US</a>
+    <a class="overlaya" href="#f1sabout">ABOUT F1 IN SCHOOLS</a>
+    <a class="overlaya" href="#meetteam">MEET THE TEAM</a>
+    <a class="overlaya" href="#sponsorship">SPONSORSHIP</a>
+	 <a class="overlaya" href="#mentorship">MENTORSHIP</a>
+	  <a class="overlaya" href="#contactus">CONTACTUS</a>
+	  <a class="overlaya" href="desktop.html">DESKTOP SITE</a>
   </div>
 	</div>
 </header>
@@ -104,7 +109,24 @@ function scrollFunction() {
 				<p id="fatxt3" class="textbox">
 				There are 4 rounds to each season, Regionals, State, Nationals and the World Finals, with the top teams from each stage progressing to the next. We will be competing in the Western Sydney Regionals competition, held in August 2020.
 				</p>
+				<div class="linkcontainer">
+					<div class="linkbox">
+					<a class="link" href="https://www.f1inschools.com/" target="_blank"><div class="linktext">F1 In Schools Global</div></a>
+					</div>
+					<div class="linkbox">
+					<a class="link" href="https://rea.org.au/f1-in-schools/" target="_blank"><div class="linktext">F1 In Schools Australia</div></a>
+					</div>
+				</div>
 			</div>
+				</div>
+			</div>
+			<div class="contentbox" id="faimgbox">
+				<div class="imagecontainer">
+				<div class="imagebox" id="fozmat">
+				</div>
+				<div class="caption" id="capfozmat">
+				One of our previous teams, Thrust Vector, competiting in reaction racing at the Australian National Final.
+				</div>
 				</div>
 			</div>
 		</div>
