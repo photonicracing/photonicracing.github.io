@@ -67,7 +67,7 @@ html {
 	background: rgba(0,0,0,0.4);
 	transition: 0.4s;
 	width: 100%;
-	margin-bottom: 0;
+	margin-top: -10px;
 }
 
 #menubarbox {
@@ -201,4 +201,8 @@ body {
 
 #facbb {
 	height: 1480px;
+}
+
+#nav1 {
+	color: rgb(255,255,255);
 }
