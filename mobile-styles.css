@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face {
+  font-family: Montserrat;
+  src: url("/Fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
   height: 100%;

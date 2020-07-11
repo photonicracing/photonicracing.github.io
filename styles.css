@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face {
+  font-family: Montserrat;
+  src: url("/Fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
 html {
 	scroll-behavior: smooth;
 	background: rgb(0,0,0);
