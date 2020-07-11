@@ -197,11 +197,11 @@ body {
 }
 
 #facb {
-	height: 1650px;
+	height: 2000px;
 }
 
 #facbb {
-	height: 1630px;
+	height: 1980px;
 }
 
 #nav1 {
@@ -210,8 +210,8 @@ body {
 
 .linkbox {
 	align-self: center;
-	height: 100px;
-	width: 400px;
+	height: 150px;
+	width: 500px;
 	background-image: linear-gradient(45deg,rgb(0,27,106),rgb(0,139,223),rgb(0,229,225));
 	display: flex;
 	align-content: center;
@@ -223,14 +223,14 @@ body {
 }
 
 .link {	
-	width: 380px;
-	height: 80px;
+	width: 480px;
+	height: 130px;
 	margin:10px;
 	border-radius: 30px;
 	background-color: rgba(255,255,255,1);
 	border-width: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+	font-size: 60px;
 	color: rgb(0,0,0);`
 	cursor: pointer;
 	transition: 0.4s;
@@ -366,4 +366,142 @@ body {
 
 #mtcbb {
 	height: 3580px;
+}
+
+#scb {
+	height: 1800px;
+}
+
+#scbb {
+	height: 1780px;
+}
+
+#f1swf {
+	background-image: url("Media/IMG_6235.jpeg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 500px;
+}
+
+#simgbox {
+	height: 750px;
+}
+
+#mcb {
+	height: 1350px;
+}
+
+#mcbb {
+	height: 1330px;
+}
+
+#ostitle {
+	color: #FFFFFF;
+	width: 100%;
+}
+
+#sponsorblockcontainer {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.sponsorblock {
+	flex-grow: 1;
+	margin: 25px;
+	border-radius: 30px;
+	height: 500px;
+}
+
+.sponsorlink {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	border-radius: 30px;
+	transition: 0.4s;
+	background-color: #FFFFFF;
+}
+
+.sponsorlink:hover {
+	background-color: rgba(255,255,255,0);
+}
+
+.sponsorlink:hover div {
+	filter:contrast(0%) brightness(500%);
+}
+
+.sponsorbox {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size:contain;
+	height: 500px;
+	width: 80%;
+	align-self: center;
+	transition: 0.4s;
+}
+
+#simscale {
+	background-image: url("Media/SimScale_logo.png");
+}
+
+#keyshot {
+	background-image: url("Media/keyshot.png");
+}
+
+#tt {
+	background-image: url("Media/TTlogo.png");
+}
+
+#oscb {
+	height: 2000px;
+}
+
+.contactimg {
+	width: 1em;
+	height: auto;
+	margin-right: 20px;
+	margin-bottom: -0.1em;
+}
+
+#slb {
+	height: 200px;
+}
+
+#sl {
+	height: 180px;
+}
+
+#stxtline {
+	width: 500px;
+}
+
+#f1sglb {
+	height: 200px;
+	margin-top: 50px;
+}
+
+#f1salb {
+	height: 200px;
+	margin-top: 50px;
+}
+
+#f1sal {
+	height: 180px;
+}
+
+#f1sgl {
+	height: 180px;
+}
+
+#cucb {
+	height: 750px;
+}
+
+#cucbb {
+	height: 730px;
 }
