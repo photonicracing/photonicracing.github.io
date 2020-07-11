@@ -199,6 +199,23 @@ body {
 
 #tacbb {
 	height: 1080px;
+	background: rgb(0,0,0);
+	transition: 0.4s;
+}
+
+#tatxt {
+	color: #FFFFFF;
+	transition: 0.4s;
+}
+
+#tatitle {
+	color: #FFFFFF;
+	transition: 0.4s;
+}
+
+#taline {
+	background-color: #FFFFFF;
+	transition: 0.4s;
 }
 
 #facb {
@@ -236,7 +253,7 @@ body {
 	border-width: 0;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
-	color: rgb(0,0,0);`
+	color: rgb(0,0,0);
 	cursor: pointer;
 	transition: 0.4s;
 	text-align: center;

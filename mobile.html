@@ -20,6 +20,10 @@ function closeNav() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+	document.getElementById("tatxt").style.color = "rgb(0,0,0)";
+	document.getElementById("tatitle").style.color = "rgb(0,0,0)";
+	document.getElementById("taline").style.background = "rgb(0,0,0)";
+	document.getElementById("tacbb").style.background = "#FFFFFF";
 	document.getElementById("menubar").style.background = "rgb(255,255,255)";
 	document.getElementById("menubarlogo").src='Media/Name Logo White.png';
 	document.getElementById("html").style.background = "rgb(255,255,255)";
@@ -28,6 +32,10 @@ function scrollFunction() {
 	document.getElementByClassName("overlay").style.backgroundColor = "rgb(255,255,255)";
 	document.getElementByClassName("overlaya").style.backgroundColor = "rgb(0,0,0)";
   } else {
+	document.getElementById("tatxt").style.color = "#FFFFFF";
+	document.getElementById("tatitle").style.color = "#FFFFFF";
+	document.getElementById("taline").style.background = "#FFFFFF";
+	document.getElementById("tacbb").style.background = "rgb(0,0,0)";
 	document.getElementById("menubar").style.background = "rgba(0,0,0,0.4)";
 	document.getElementById("menubarlogo").src='Media/Name Logo Black.png';
 	document.getElementById("html").style.background = "rgb(0,0,0)";
