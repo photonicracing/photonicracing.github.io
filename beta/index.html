@@ -5,39 +5,118 @@
 <title>Photonic Racing</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 <link rel="icon" href="Media/Final-Icon.png">
 </head>
 
-<body>
-<header>
+<header id="header">
 	<div id="headercontainer">
 		<div id="logocontainer">
-	    	<img src="Media/Name Logo White.png" width="5000" height="2000" alt=""/>
+	    	<img src="Media/Name Logo White.png" width="5000" height="2000" alt="" href="#coverimg" id="img"/>
 		</div>
 		<div id="menucontainer">
 			<div class="menulink" id="sec1link">
-				<a href="#sec1">WHO WE ARE</a>
+				<a href="#sec1" id="l1">WHO WE ARE</a>
 			</div>
+			<div class="topmenudiv" id="d1"></div>
 			<div class="menulink" id="sec3link">
-				<a href="#sec3">F1 IN SCHOOLS</a>
+				<a href="#sec3" id="l2">F1 IN SCHOOLS</a>
 			</div>
+			<div class="topmenudiv" id="d2"></div>
 			<div class="menulink" id="sec4link">
-				<a href="#sec4">MEET THE TEAM</a>
+				<a href="#sec4" id="l3">MEET THE TEAM</a>
 			</div>
+			<div class="topmenudiv" id="d3"></div>
 			<div class="menulink" id="sec5link">
-				<a href="#sec5">SUPPORT US</a>
+				<a href="#sec5" id="l4">SUPPORT US</a>
 			</div>
+			<div class="topmenudiv" id="d4"></div>
 			<div class="menulink" id="sec6link">
-				<a href="#sec6">OUR SPONSORS</a>
+				<a href="#sec6" id="l5">OUR SPONSORS</a>
 			</div>
+			<div class="topmenudiv" id="d5"></div>
 			<div class="menulink" id="sec7link">
-				<a href="#sec7">CONTACT US</a>
+				<a href="#sec7" id="l6">CONTACT US</a>
 			</div>
 		</div>
 	</div>	
 </header>	
+
+<body id="body">
+	<script>
+		
+		if (screen.width <= 1200) {
+    document.location = "mobile.html";
+  }
+		
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    location.replace("mobile.html");
+  }
+
+		
+		window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("header").style.background = "rgba(255,255,255,1)";
+	document.getElementById("body").style.background = "rgba(255,255,255,1)";
+	document.getElementById("img").style.filter = "brightness(1)";
+	document.getElementById("l1").style.color = "rgb(0,0,0)";
+	document.getElementById("l2").style.color = "rgb(0,0,0)";
+	  document.getElementById("l3").style.color = "rgb(0,0,0)";
+	  document.getElementById("l4").style.color = "rgb(0,0,0)";
+	  document.getElementById("l5").style.color = "rgb(0,0,0)";
+	  document.getElementById("l6").style.color = "rgb(0,0,0)";
+	  document.getElementById("d1").style.background = "rgb(0,0,0)";
+	document.getElementById("d2").style.background = "rgb(0,0,0)";
+	  document.getElementById("d3").style.background = "rgb(0,0,0)";
+	  document.getElementById("d4").style.background = "rgb(0,0,0)";
+	  document.getElementById("d5").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.color = "rgb(0,0,0)";
+	  document.getElementById("").style.color = "rgb(0,0,0)";
+	  document.getElementById("").style.color = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	document.getElementById("").src='Media/Name Logo White.png';
+	document.getElementById("").style.width = "100%";
+	document.getElementById("").style.background = "#FFFFFF";
+  } else {
+    document.getElementById("header").style.background = "rgba(255,255,255,0)";
+	document.getElementById("body").style.background = "rgba(0,0,0,1)";
+	document.getElementById("img").style.filter = "brightness(100)";
+	document.getElementById("l1").style.color = "rgb(255,255,255)";
+	document.getElementById("l2").style.color = "rgb(255,255,255)";
+	  document.getElementById("l3").style.color = "rgb(255,255,255)";
+	  document.getElementById("l4").style.color = "rgb(255,255,255)";
+	  document.getElementById("l5").style.color = "rgb(255,255,255)";
+	  document.getElementById("l6").style.color = "rgb(255,255,255)";
+	  document.getElementById("d1").style.background = "rgb(255,255,255)";
+	document.getElementById("d2").style.background = "rgb(255,255,255)";
+	  document.getElementById("d3").style.background = "rgb(255,255,255)";
+	  document.getElementById("d4").style.background = "rgb(255,255,255)";
+	  document.getElementById("d5").style.background = "rgb(255,255,255)";
+	  document.getElementById("").style.color = "#FFFFFF";
+	  document.getElementById("").style.color = "#FFFFFF";
+	  document.getElementById("").style.color = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	document.getElementById("").src='Media/Name Logo Black.png';
+	document.getElementById("").style.width = "100%";
+	document.getElementById("").style.background = "rgb(0,0,0)";
+  }
+}
+	</script>
 <div id="bodycontainer">
-	<div id="coverimg"></div>
+	<div id="coverimgbk">
+		<div id="coverimg"></div>
+	</div>
 	<div class="sectype1" id="sec1">
 		<div class="st1container" id="sec1container">
 			<div id="sec1upper">
@@ -51,24 +130,38 @@
 						<div class="st1textdiv" id="sec1textdiv"></div>
 						<div class="st1content" id="sec1content">
 							<p>
-							random text
+							We are Photonic Racing, a team of four students from Blue Mountains Grammar School, competeing in the F1 in Schools STEM Challenge in 2020. We have each competed in this competition before in three different teams: Awaken, Thrust Vector, and Paradoxum, but this year we loved it so much that we decided to compete again. Our team has showcased our experience in this competition through winning numerous awards at the Western Sydney Regional Finals and the New South Wales State Finals, qualifying us for the Australian National Finals in March 2021.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="st1img" id="sec1img">
 					<div class="st1imgcontainer" id="sec1imgcontainer">
-				    	<img src="Media/sec1.jpeg" width="4032" height="3024" alt=""/>
+						<p id="st1img"></p>
 					</div>
 				</div>
 			</div>
 			<div id="sec1lower">
+				<div class="awardstitle">
+					<div class="awardsdiv"></div>
+					<h2>
+					2020 NSW STATE FINAL AWARDS
+					</h2>
+					<div class="awardsdiv"></div>
+				</div>
 				<div id="nswawards">
-					<div class="award">Best Team Portfolio</div>
-					<div class="award">Best Managed Enterprise</div>
-					<div class="award">Best Graphic Design</div>
-					<div class="award">Best Team Trade Display</div>
-					<div class="award">Best Team Marketing</div>
+					<div class="award"><span>Best Team Portfolio</span></div>
+					<div class="award"><span>Best Managed Enterprise</span></div>
+					<div class="award"><span>Best Graphic Design</span></div>
+					<div class="award"><span>Best Team Trade Display</span></div>
+					<div class="award"><span>Best Team Marketing</span></div>
+				</div>
+				<div class="awardstitle">
+					<div class="awardsdiv"></div>
+					<h2>
+					OUR PREVIOUS TEAMS
+					</h2>
+					<div class="awardsdiv"></div>
 				</div>
 				<div id="prevteams">
 					<div class="prevteamcontainer">
