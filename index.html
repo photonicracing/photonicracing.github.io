@@ -1,20 +1,515 @@
 <!doctype html>
-<html id="html">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Photonic Racing</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 <link rel="icon" href="Media/Final-Icon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
-	
 
-<body>
-	photonicracing.com is offline while the website is being updated
-</body>
-	
+<header id="header">
+	<div id="headercontainer">
+		<div id="logocontainer">
+	    	<img src="Media/Name Logo White.png" width="5000" height="2000" alt="" href="#coverimg" id="img"/>
+		</div>
+		<div id="menucontainer">
+			<div class="menulink" id="sec1link">
+				<a href="#sec1" id="l1">WHO WE ARE</a>
+			</div>
+			<div class="topmenudiv" id="d1"></div>
+			<div class="menulink" id="sec3link">
+				<a href="#sec3" id="l2">F1 IN SCHOOLS</a>
+			</div>
+			<div class="topmenudiv" id="d2"></div>
+			<div class="menulink" id="sec4link">
+				<a href="#sec4" id="l3">MEET THE TEAM</a>
+			</div>
+			<div class="topmenudiv" id="d3"></div>
+			<div class="menulink" id="sec5link">
+				<a href="#sec5" id="l4">SUPPORT US</a>
+			</div>
+			<div class="topmenudiv" id="d4"></div>
+			<div class="menulink" id="sec6link">
+				<a href="#sec6" id="l5">OUR SPONSORS</a>
+			</div>
+			<div class="topmenudiv" id="d5"></div>
+			<div class="menulink" id="sec7link">
+				<a href="#sec7" id="l6">CONTACT US</a>
+			</div>
+		</div>
+	</div>	
+</header>	
+
+<body id="body">
+	<script>
+		
+		if (screen.width <= 1200) {
+    document.location = "mobile.html";
+  }
+		
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    location.replace("mobile.html");
+  }
+
+		
+		window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("header").style.background = "rgba(255,255,255,1)";
+	document.getElementById("body").style.background = "rgba(255,255,255,1)";
+	document.getElementById("img").style.filter = "brightness(1)";
+	document.getElementById("l1").style.color = "rgb(0,0,0)";
+	document.getElementById("l2").style.color = "rgb(0,0,0)";
+	  document.getElementById("l3").style.color = "rgb(0,0,0)";
+	  document.getElementById("l4").style.color = "rgb(0,0,0)";
+	  document.getElementById("l5").style.color = "rgb(0,0,0)";
+	  document.getElementById("l6").style.color = "rgb(0,0,0)";
+	  document.getElementById("d1").style.background = "rgb(0,0,0)";
+	document.getElementById("d2").style.background = "rgb(0,0,0)";
+	  document.getElementById("d3").style.background = "rgb(0,0,0)";
+	  document.getElementById("d4").style.background = "rgb(0,0,0)";
+	  document.getElementById("d5").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.color = "rgb(0,0,0)";
+	  document.getElementById("").style.color = "rgb(0,0,0)";
+	  document.getElementById("").style.color = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	  document.getElementById("").style.background = "rgb(0,0,0)";
+	document.getElementById("").src='Media/Name Logo White.png';
+	document.getElementById("").style.width = "100%";
+	document.getElementById("").style.background = "#FFFFFF";
+  } else {
+    document.getElementById("header").style.background = "rgba(255,255,255,0)";
+	document.getElementById("body").style.background = "rgba(0,0,0,1)";
+	document.getElementById("img").style.filter = "brightness(100)";
+	document.getElementById("l1").style.color = "rgb(255,255,255)";
+	document.getElementById("l2").style.color = "rgb(255,255,255)";
+	  document.getElementById("l3").style.color = "rgb(255,255,255)";
+	  document.getElementById("l4").style.color = "rgb(255,255,255)";
+	  document.getElementById("l5").style.color = "rgb(255,255,255)";
+	  document.getElementById("l6").style.color = "rgb(255,255,255)";
+	  document.getElementById("d1").style.background = "rgb(255,255,255)";
+	document.getElementById("d2").style.background = "rgb(255,255,255)";
+	  document.getElementById("d3").style.background = "rgb(255,255,255)";
+	  document.getElementById("d4").style.background = "rgb(255,255,255)";
+	  document.getElementById("d5").style.background = "rgb(255,255,255)";
+	  document.getElementById("").style.color = "#FFFFFF";
+	  document.getElementById("").style.color = "#FFFFFF";
+	  document.getElementById("").style.color = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	  document.getElementById("").style.background = "#FFFFFF";
+	document.getElementById("").src='Media/Name Logo Black.png';
+	document.getElementById("").style.width = "100%";
+	document.getElementById("").style.background = "rgb(0,0,0)";
+  }
+}
+	</script>
+<div id="bodycontainer">
+	<div id="coverimgbk">
+		<div id="coverimg"></div>
+	</div>
+	<div class="sectype1" id="sec1">
+		<div class="st1container" id="sec1container">
+			<div id="sec1upper">
+				<div class="st1text" id="sec1text">
+					<div class="st1textcontainer" id="sec1textcontainer">
+						<div class="st1title" id="sec1title">
+							<h1>
+							WHO WE ARE
+							</h1>
+						</div>
+						<div class="st1textdiv" id="sec1textdiv"></div>
+						<div class="st1content" id="sec1content">
+							<p>
+							We are Photonic Racing, a team of three students from Blue Mountains Grammar School, competing in the F1 in Schools STEM Challenge in 2020. We have each competed in this competition before in three different teams: Awaken, Thrust Vector, and Paradoxum, but this year we loved it so much that we decided to compete again. Our team has showcased our experience in this competition through winning numerous awards at the Western Sydney Regional Finals and the New South Wales State Finals, qualifying us for the Australian National Finals in March 2021.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="st1img" id="sec1img">
+					<div class="st1imgcontainer" id="sec1imgcontainer">
+						<p id="st1img"></p>
+					</div>
+				</div>
+			</div>
+			<div id="sec1lower">
+				<div class="awardstitle">
+					<div class="awardsdiv"></div>
+					<h2>
+					2020 NSW STATE FINAL AWARDS
+					</h2>
+					<div class="awardsdiv"></div>
+				</div>
+				<div id="nswawards">
+					<div class="award"><span>Best Team Portfolio</span></div>
+					<div class="award"><span>Best Managed Enterprise</span></div>
+					<div class="award"><span>Best Graphic Design</span></div>
+					<div class="award"><span>Best Team Trade Display</span></div>
+					<div class="award"><span>Best Team Marketing</span></div>
+				</div>
+				<div class="awardstitle">
+					<div class="awardsdiv"></div>
+					<h2>
+					OUR PREVIOUS TEAMS
+					</h2>
+					<div class="awardsdiv"></div>
+				</div>
+				<div id="prevteams">
+					<div class="prevteamcontainer">
+						<div class="prevlogo">
+					    <img src="Media/paradoxum.png" width="595" height="595" alt=""/>
+						</div>
+						<div class="prevtext">
+						<div class="prevtitle" id="pdxtitle">
+						PARADOXUM
+						</div>
+						<div class="prevaward1">2019 WORLD FINALIST</div>
+						<div class="prevaward">WF Digital Media Award</div>
+					</div>
+					</div>
+					<div class="prevteamcontainer" id="centralcont">
+						<div class="prevlogo">
+					    <img src="Media/tv.png" width="2000" height="2000" alt=""/>
+						</div>
+						<div class="prevtext">
+						<div class="prevtitle" id="tvtitle">
+						THRUST VECTOR
+						</div>
+						<div class="prevaward1">2019 NATIONAL CHAMPIONS</div>
+						<div class="prevaward">Best Engineered Car</div>
+						<div class="prevaward">Best Engineering CAD</div>
+						<div class="prevaward">Best Manufactured Car</div>
+						<div class="prevaward">Best Verbal Presentation</div>
+						<div class="prevaward">Innovation Award</div>
+					</div>
+					</div>
+					<div class="prevteamcontainer">
+						<div class="prevlogo">
+					    <img src="Media/awaken.png" width="734" height="638" alt=""/>
+						</div>
+						<div class="prevtext">
+						<div class="prevtitle" id="awatitle">
+						AWAKEN
+						</div>
+						<div class="prevaward1">2020 NATIONAL FINALIST</div>
+						<div class="prevaward">Recognition Of Achievment Award</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sectype2" id="sec2">
+		<div id="sec2cover">
+			<div class="st2box" id="sec2box">
+				<div class="st2boxcontainer" id="sec2boxcontainer">
+					<p id="metatext1">
+					The Next Stage
+					</p>
+					<h1 id="nats">
+					2021 AUS NATIONAL FINALS
+					</h1>
+					<p id="date">
+					March 15 - 19
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sectype1" id="sec3">
+		<div class="sectype1container" id="sec3container">
+			<div class="st1img" id="sec3img2">
+				<div class="st1imgcontainer" id="sec3imgcontainer">
+			    <p id="sec3img"></p>
+				</div>
+			</div>
+			<div class="st1text" id="sec3text">
+				<div class="st1textcontainer" id="sec3textcontainer">
+					<div class="st1title" id="sec3title">
+						<h1>
+						THE F1 IN SCHOOLS STEM CHALLENGE
+						</h1>
+					</div>
+					<div class="st1textdiv" id="sec3textdiv"></div>
+					<div class="st1content" id="sec3content">
+						<p>
+						F1 in Schools is the largest high school STEM competition in the world, with over 17000 schools in 51 countries getting involved. This competition fosters and improves student's skills, experience and knowledge in technology, engineering, project management, leadership, marketing, communication, and graphic design.
+						</p>
+						<p>
+						The project is based around designing, constructing, and racing a miniature F1 car capable of reaching speeds over 100 kilometres per hour, but teams must also create a team brand, construct displays, conduct numerous interviews and presentations, and meticulously document all work in a set of portfolios.
+						</p>
+						<p>
+						The higher stages of the competition are heavily endorsed by and integrated into actual Formula One, with National and World Finals events held alongside an F1 Grand Prix.
+						</p>
+						<div id="sec3buttoncontainer">
+							<div id="button1">
+								<div class="button">
+									<a class="buttona" href="https://www.f1inschools.com" target="_blank"><span>F1 in Schools Global</span></a>
+								</div>
+							</div>
+							<div id="button2">
+								<div class="button">
+									<a class="buttona" href="https://rea.org.au/f1-in-schools/" target="_blank"><span>F1 in Schools Australia</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sectype2" id="sec4">
+		<div class="st2container" id="sec4container">
+			<div id="sec4title">
+				<h1>
+				MEET THE TEAM
+				</h1>
+			</div>
+			<div id="sec4content">
+				<div class="memberbox">
+					<div class="memberimg" id="nj">
+				    
+					</div>
+					<div class="memberdes">
+						<h2>
+						Nicholas Hayes
+						</h2>
+						<h3>
+						Team Manager &amp; Digital Designer
+						</h3>
+						<div class="memberdiv"></div>
+						<p>
+						Nick ensures that all tasks are completed on time, and to an exemplary standard. He also designs our car and develops the team brand and graphic design.
+						</p>
+					</div>
+				</div>
+				<div class="memberbox">
+					<div class="memberimg" id="zhu">
+				   
+					</div>
+					<div class="memberdes">
+						<h2>
+						John Zhu
+						</h2>
+						<h3>
+						Manufacturing &amp; Innovations Engineer
+						</h3>
+						<div class="memberdiv"></div>
+						<p>
+						John safely constructs our car to the accuracy and quality of the final 3D design, and analyses all aspects of work to find and implement innovation opportunities.
+						</p>
+					</div>
+				</div>
+				<div class="memberbox">
+					<div class="memberimg" id="boi">
+				    
+					</div>
+					<div class="memberdes">
+						<h2>
+						Oliver Freeman
+						</h2>
+						<h3>
+						Testing &amp; Resource Manager
+						</h3>
+						<div class="memberdiv"></div>
+						<p>
+						Oliver is responsible for both the physical and virtual testing of our car designs, as well as managing our team's resources and finances.
+						</p>
+					</div>
+				</div>
+				<!--<div class="memberbox">
+					<div class="memberimg">
+				    <img src="Media/kat.png" width="220" height="178" alt=""/>
+					</div>
+					<div class="memberdes">
+						<h3>
+						Katerina Reynolds
+						</h3>
+						<div class="memberdiv"></div>
+						<p>
+						random text
+						</p>
+					</div>
+				</div>-->
+			</div>
+		</div>
+	</div>
+	<div class="sectype3" id="sec5">
+		<div id="sec5container">
+			<div id="sponsorship">
+				<div id="sponsorcontainer">
+					<h1 id="sponsortitle">
+					SPONSORSHIP
+					</h1>
+					<div class="sec5div" id="sponsordiv"></div>
+					<p id="s1">
+					A significant part of the F1 in Schools competition is that teams must fundraise through sponsorship. Teams not only require funds to pay for portfolio printing, car manufacturing resources, displays, and more, but sponsorship is assessed in its own right.
+					</p>
+					<p id="s2">
+					We want to help develop a beneficial and long lasting relationship with our sponsors, and provide them with exceptional recognition for their sponsorship of our team. The F1 in Schools competition offers unique opportunities to showcase brands and products to local, statewide and nationwide communities, as well as the education and STEM communities. We offer a wide range of return on investment options.
+					</p>
+					<p id="s3">
+					If you are interested in sponsoring us, take a look at our sponsorship prospectus. We appreciate the generosity of all our sponsors, and they are crucial to our success as a team.
+					</p>
+					<div id="prospectus">
+						<div class="button">
+							<a class="buttona" href="Media/Photonic Sponsorship Prospectus.pdf" target="_blank"><span>Download Prospectus</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="mentorship">
+				<div id="mentorcontainer">
+					<h1 id="mentortitle">
+					MENTORSHIP
+					</h1>
+					<div class="sec5div" id="mentordiv"></div>
+					<p id="m1">
+					Monetary support isn’t everything, and we would love some assistance and mentoring from industry professionals, since working with, and gaining skills from industry professionals is a core part of the competition.
+					</p>
+					<p id="m2">
+					Whatever the profession, be it engineering, design, manufacturing, painting, marketing, graphic design, display design, project management or communication, our team will greatly appreciate the time and effort businesses or individuals take to mentor our team.
+					</p>
+					<p id="m3">
+					If you are interested in mentoring our team, it would be wonderful if we could get in contact.
+					</p>
+					<div id="mentorcontact">
+						<div class="button" id="button3">
+							<div id="buttonbk1">
+							<a class="buttona" id="buttona3" href="#sec7"><span>Contact Us</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sectype4" id="sec6">
+		<div id="sec6container">
+			<div id="sec6title">
+				<h1>
+				OUR PARTNERS
+				</h1>
+			</div>
+			<div id="sponsorelements">
+				<div class="sponsorimg" id="sim">
+					<div class="acont">
+					<a href="https://www.simscale.com" target="_blank"><img src="Media/simscale.png" width="2100" height="544" alt=""/></a>
+					</div>
+				</div>
+				<div class="sponsorimg" id="key">
+					<div class="acont">
+					<a href="https://www.keyshot.com" target="_blank"><img src="Media/keyshot.png" width="3022" height="3212" alt=""/></a>
+					</div>
+				</div>
+				<div class="sponsorimg" id="teach">
+					<div class="acont">
+					<a href="https://www.youtube.com/c/TeachingTech/about" target="_blank"><img src="Media/tt.png" width="2996" height="2939" alt="">
+					</a>
+					</div>
+				</div>
+				<div class="sponsorimg" id="tro">
+					<div class="acont">
+					<a href="https://www.troteclaser.com/en-au/" target="_blank"><img src="Media/trotec.png" width="1400" height="490" alt=""/></a>
+					</div>
+				</div>
+				<div class="sponsorimg" id="cd">
+					<div class="acont">
+					<a href="https://garrettdysondesign.com" target="_blank"><img src="Media/dyson.png" width="174" height="172" alt=""/></a>
+					</div>
+				</div>
+				<div class="sponsorimg" id="black">
+					<div class="acont">
+					<a href="https://www.blackheathautomotive.com.au" target="_blank"><img src="Media/blackheath_auto_logo.png" width="807" height="391" alt=""/></a>
+					</div>
+				</div>
+				<div class="sponsorimg" id="bmgs">
+					<div class="acont">
+					<a href="http://www.bmgs.nsw.edu.au" target="_blank"><img src="Media/bmgs-logo.png" width="807" height="391" alt=""/></a>
+					</div>
+				</div>
+				<div class="sponsorimg" id="58gna">
+					<div class="acont">
+					<a href="https://www.instagram.com/58gramsneveragain/" target="_blank"><img src="Media/58gna.png" width="807" height="391" alt=""/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sectype2" id="sec7">
+		<div class="st2container" id="sec7container">
+			<div class="st2box" id="sec7box">
+				<div class="st2boxcontainer" id="sec7boxcontainer">
+					<h1 id="contacttitle">
+					CONTACT US
+					</h1>
+					<div id="contactdiv"></div>
+					<div class="contactbutton">
+						<div class="button">
+							<a class="buttona" id="c1a" href="mailto:photonicracing@gmail.com" target="_blank">
+								<div class="buttonicon">
+							    <img src="Media/mail.png" width="339" height="337" alt=""/>
+								</div>
+								<div class="buttontext2">
+								Email
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="contactbutton">
+						<div class="button">
+							<a class="buttona" id="c2a" href="https://www.facebook.com/photonicracing" target="_blank">
+								<div class="buttonicon">
+							    <img src="Media/face.png" width="395" height="393" alt=""/>
+								</div>
+								<div class="buttontext2">
+								Facebook
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="contactbutton">
+						<div class="button">
+							<a class="buttona" id="c3a" href="https://www.instagram.com/photonicracing/" target="_blank">
+								<div class="buttonicon">
+							    <img src="Media/insta.png" width="373" height="373" alt=""/>
+								</div>
+								<div class="buttontext2">
+								Instagram
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <footer>
-	
+	<div id="footercontainer">
+		<div id="footerlogo">
+	    <img src="Media/Name Logo White.png" width="5000" height="2000" alt=""/>
+		</div>
+		<div id="up">
+			<a href="#coverimg">UP 	&uparrow;</a>
+		</div>
+		<div id="footerbmgs">
+	    <img src="Media/bmgs.png" width="98" height="107" alt=""/>
+		</div>
+	</div>
 </footer>
-	
+</body>
 </html>
