@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 header {
-	height: 90px;
+	min-height: 90px;
 	background: rgba(255,255,255,0);
 	width: 100%;
 	margin: 0;
@@ -210,9 +210,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: center;
-  background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	display: inline;
+ 	color: rgb(0,139,233);
 }
 
 .award span {
@@ -730,7 +729,7 @@ body {
 .sponsorimg {
 	flex-grow: 1;
 	width: 20vw;
-	min-height: 20vw;
+	height: 20vw;
 	display: flex;
 	justify-content: center;
 	align-content: center;
