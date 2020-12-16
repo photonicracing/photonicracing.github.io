@@ -258,6 +258,7 @@ body {
 .prevteamcontainer {
 	flex-grow: 1;
 	min-height: 200px;
+	max-height: 350px;
 	margin: 20px;
 	background: rgb(255,255,255);
 	display: flex;
