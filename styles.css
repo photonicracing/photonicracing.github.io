@@ -271,13 +271,14 @@ body {
 	margin-right: 0;
 }
 
-.prevlogo img {
-	height: 140px;
+.prevlogo {
+	height: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 10px;
 	width:140px;
 	float: left;
+	margin: auto;
 }
 
 .prevtext {
@@ -487,9 +488,9 @@ body {
 }
 
 .memberbox {
-	margin-left: 9vw;
-	margin-right: 9vw;
-	width: 30vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	width: 35vw;
 	min-height: 275px;
 	background: rgb(255,255,255);
 	margin-bottom: 100px;
@@ -559,6 +560,7 @@ body {
 	width: 100%;
 	display: flex;
 	background: rgb(255,255,255);
+	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
 }
 
 #sponsorship {
@@ -566,14 +568,14 @@ body {
 	min-height: 500px;
 	background: rgb(255,255,255);
 	transform: skewX(20deg);
-	margin-left: 100px;
-	margin-right: -100px;
+	margin-left: -100px;
+	padding-left:150px;
+	margin-right: -120px;
 }
 
 #mentorship {
 	width: 50%;
 	min-height: 500px;
-	background: -webkit-linear-gradient(-45deg,rgb(0,139,233),rgb(0,27,106));
 }
 
 #sponsorcontainer {
@@ -586,6 +588,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: rgb(255,255,255);
 	z-index: 5;
+	margin-right: -10%;
 }
 
 #sponsortitle {
@@ -597,8 +600,10 @@ body {
 #mentortitle {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 45px;
-	margin-left: 100px;
 	color: rgb(255,255,255);
+	margin-right: 7%;
+	float: right;
+	width: 80%;
 }
 
 .sec5div {
@@ -612,7 +617,8 @@ body {
 
 #mentordiv {
 	background: rgb(255,255,255);
-	margin-left: 100px;
+	margin-right: 7%;
+	float: right;
 }
 
 #s1 {
@@ -628,6 +634,12 @@ body {
 #s3 {
 	width: 94%;
 	text-align: justify;
+}
+
+#mentorcontainer p {
+	float: right;
+	text-align: justify;
+	margin-right: 7%;
 }
 
 #prospectus {
@@ -649,21 +661,15 @@ body {
 }
 
 #m1 {
-	margin-left: 120px;
-	width: 78%;
-	text-align: justify;
+	width: 70%;
 }
 
 #m2 {
-	margin-left: 145px;
-	width: 75%;
-	text-align: justify;
+	width: 65%;
 }
 
 #m3 {
-	margin-left: 170px;
-	width: 72%;
-	text-align: justify;
+	width: 60%;
 }
 
 #button3 {
@@ -696,7 +702,6 @@ body {
 #sec6container {
 	width: 100%;
 	height: auto;
-	/*background: rgba(0,139,233,1);  light blue*/
 	background: rgb(35,50,64);     
 	margin: 0;
 	padding-bottom: 3%;
@@ -717,17 +722,21 @@ body {
 	padding-top: 20px;
 }
 
-#sponsorelements {
-	width: 94%;
-	margin-left: 3%;
-	margin-right: 3%;
+#selcont {
+	width: 85vw;
+	margin: auto;
 	height: auto;
 	display: flex;
 	flex-flow: wrap;
 }
 
+#sponsorelements {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
 .sponsorimg {
-	flex-grow: 1;
 	width: 20vw;
 	height: 20vw;
 	display: flex;
@@ -850,18 +859,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-}
-
-#c1a:hover {
-	filter: brightness(15);
-}
-
-#c2a:hover {
-	filter: brightness(15);
-}
-
-#c3a:hover {
-	filter: brightness(15);
 }
 
 .buttonicon {

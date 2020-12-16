@@ -49,6 +49,14 @@
 
 <body id="body">
 	<script>
+		
+		if (screen.width <= 1200) {
+    document.location = "mobile.html";
+  }
+		
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    location.replace("mobile.html");
+  }
 
 		
 		window.onscroll = function() {scrollFunction()};
@@ -161,9 +169,9 @@ function scrollFunction() {
 				</div>
 				<div id="prevteams">
 					<div class="prevteamcontainer">
-						<div class="prevlogo">
-					    <img src="Media/paradoxum.png" width="595" height="595" alt=""/>
-						</div>
+						
+					    <img src="Media/paradoxum.png" width="595" height="595" alt="" class="prevlogo"/>
+						
 						<div class="prevtext">
 						<div class="prevtitle" id="pdxtitle">
 						PARADOXUM
@@ -173,9 +181,9 @@ function scrollFunction() {
 					</div>
 					</div>
 					<div class="prevteamcontainer" id="centralcont">
-						<div class="prevlogo">
-					    <img src="Media/tv.png" width="2000" height="2000" alt=""/>
-						</div>
+						
+					    <img src="Media/tv.png" width="2000" height="2000" alt="" class="prevlogo"/>
+						
 						<div class="prevtext">
 						<div class="prevtitle" id="tvtitle">
 						THRUST VECTOR
@@ -189,9 +197,9 @@ function scrollFunction() {
 					</div>
 					</div>
 					<div class="prevteamcontainer">
-						<div class="prevlogo">
-					    <img src="Media/awaken.png" width="734" height="638" alt=""/>
-						</div>
+						
+					    <img src="Media/awaken.png" width="734" height="638" alt="" class="prevlogo"/>
+						
 						<div class="prevtext">
 						<div class="prevtitle" id="awatitle">
 						AWAKEN
@@ -284,7 +292,7 @@ function scrollFunction() {
 						</h3>
 						<div class="memberdiv"></div>
 						<p>
-						Nick is responsible for the managing the team, making sure we stay on track with tasks. He also designs the car, develops team brand and graphics.
+						Nick is responsible for managing the team, making sure we stay on track with tasks. He also designs the car, develops team brand and graphics.
 						</p>
 					</div>
 				</div>
@@ -397,6 +405,7 @@ function scrollFunction() {
 				</h1>
 			</div>
 			<div id="sponsorelements">
+				<div id="selcont">
 				<div class="sponsorimg" id="sim">
 					<div class="acont">
 					<a href="https://www.simscale.com" target="_blank"><img src="Media/simscale.png" width="2100" height="544" alt=""/></a>
@@ -438,6 +447,7 @@ function scrollFunction() {
 					<a href="https://www.instagram.com/58gramsneveragain/" target="_blank"><img src="Media/58gna.png" width="807" height="391" alt=""/></a>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>
