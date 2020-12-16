@@ -14,7 +14,7 @@
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */ /* Black w/opacity */
+  background-color: rgb(255,255,255); /* Black fallback color */ /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
@@ -33,7 +33,7 @@
   padding: 20px;
   text-decoration: none;
   font-size: 50px;
-  color: #FFFFFF;
+  color: rgb(0,0,0);
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 	font-family: 'Montserrat', sans-serif;
@@ -64,13 +64,13 @@
 
 html {
 	scroll-behavior: smooth;
-	background: rgb(0,0,0);
+	background: rgb(255,255,255);
 	transition: 0.4s;
 }
 
 #menubar {
 	height: 180px;
-	background: rgba(0,0,0,0.4);
+	background: rgba(255,255,255,1);
 	transition: 0.4s;
 	width: 100%;
 	margin-top: -10px;
@@ -103,7 +103,7 @@ html {
 .menubarlink a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
-	color: #FFFFFF;
+	color: rgb(0,0,0);
 	text-decoration: none;
 	height: 180px;
 	display: flex;
@@ -113,421 +113,283 @@ html {
 	margin-right: 50px;
 }
 
-#coverimg img {
-	width: 100%;
-	height: auto;
-}
-
-header {
-	position: fixed;
-	width: 98%;
-	transition: 0.4s;
-}
-
-.coverimg img {
-	margin-top: 200px;
-	width: 100%;
-	height: auto;
-}
-
-body {
-	width: 100%;
-}
-
-#content {
-	font-family: 'Montserrat', sans-serif;
-	width: 100%;
-}
-
-.contentcontainer {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-content:center;
-}
-
-.contentbox {
-	margin-top: 100px;
-	width: 95%;
-	height: 1100px;
-	background-image: linear-gradient(45deg,rgb(0,27,106),rgb(0,139,223),rgb(0,229,225));
-	border-radius: 60px;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-}
-
-.contentboxborder {
-	width: 99%;
-	height: 1080px;
-	margin: 1%;
-	background-color: #FFFFFF;
-	align-self: center;
-	border-radius: 50px;
-}
-
-.title {
-	margin-top: 30px;
-	text-align: center;
-	font-size: 70px;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.textline {
-	height: 1px;
-	width: 400px;
-	background-color: rgb(0,0,0);
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -30px;
-	display: block;
-}
-
-.textbox {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-size: 40px;
-	margin-left: 60px;
-	margin-right: 60px;
-}
-
-#tacb {
-	height: 1100px;
-}
-
-#tacbb {
-	height: 1080px;
-	background: rgb(0,0,0);
-	transition: 0.4s;
-}
-
-#tatxt {
-	color: #FFFFFF;
-	transition: 0.4s;
-}
-
-#tatitle {
-	color: #FFFFFF;
-	transition: 0.4s;
-}
-
-#taline {
-	background-color: #FFFFFF;
-	transition: 0.4s;
-}
-
-#facb {
-	height: 2000px;
-}
-
-#facbb {
-	height: 1980px;
-}
-
-#nav1 {
-	color: rgb(255,255,255);
-}
-
-.linkbox {
-	align-self: center;
-	height: 150px;
-	width: 500px;
-	background-image: linear-gradient(45deg,rgb(0,27,106),rgb(0,139,223),rgb(0,229,225));
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	border-radius: 40px;
-	align-self: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.link {	
-	width: 480px;
-	height: 130px;
-	margin:10px;
-	border-radius: 30px;
-	background-color: rgba(255,255,255,1);
-	border-width: 0;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 60px;
+.overlaya {
 	color: rgb(0,0,0);
-	cursor: pointer;
-	transition: 0.4s;
+}
+
+#coverimg {
+	background-image: url("Media/carstate.png");
+	width: 100%;
+	height: 30vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#sec1 {
+	height: auto;
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5%;
+}
+
+#sec1title {
+	width: 100%;
+	font-size: 5vw;
+	margin-bottom: -4vw;
+}
+
+.st1textdiv {
+	width: 100%;
+	height: 4px;
+	background: rgb(0,0,0);
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+}
+
+.st1content {
+	text-align: justify;
+}
+
+#st1img {
+	width: 100%;
+	height: 70vw;
+	background-image: url("Media/team.JPG");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+}
+
+.awardstitle {
+	width: 100%;
 	text-align: center;
 	display: flex;
 	align-content: center;
 	justify-content: center;
-	text-decoration: none;
+	margin: 5vw 0 5vw 0;
 }
 
-.linktext {
-	align-self: center;
+.awardsdiv {
+	width: 10%;
+	height: 4px;
+	background: rgb(0,0,0);
+	margin: auto;
 }
 
-.linktext img {
-	transition:0.4s;
+.awardstitle h2 {
+	width: 80%;
+	font-size: 6.5vw;
+	margin: auto;
 }
 
-.link:hover {
-	background-color: rgba(255,255,255,0);
-	color: rgb(255,255,255);
-}
-
-.link:hover .linktext img {
-	filter: contrast(0) brightness(500%);
-}
-
-.link:active {
-	background-color: rgba(255,255,255,0);
-	color: rgb(255,255,255);
-}
-
-.linkcontainer {
+.award {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
 	align-content: center;
-	margin-top: 30px;
+	justify-content: center;
 }
 
-.imagecontainer {
-	margin: 50px;
+.award span {
 	width: 100%;
-}
-
-.imagebox {
-	border-radius: 25px;
-	width: 100%;
-}
-
-.caption {
-	color: #FFFFFF;
 	text-align: center;
+	font-weight: 700;
+	color: rgb(0,139,233);
+	font-size: 5.5vw;
+	margin: 2vw auto 2vw auto;
+}
+
+#prevteams {
+	width: 90%;
+	height: auto;
+	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: column;
+	padding:5%;
+	margin-bottom: 5vw;
+}
+
+.prevteamcontainer {
 	width: 100%;
-	margin-top: 40px;
-	font-size: 40px;
+	height: auto;
+	background: rgb(255,255,255);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: column;
+}
+
+.prevlogo {
+	width: 50%;
+	height: auto;
+	padding: 5vw;
+	margin: auto;
+}
+
+#centralcont {
+	margin: 5vw 0 5vw 0;
+}
+
+.prevtitle {
+	font-size: 10vw;
+	font-weight: 700;
+	margin-bottom: 3vw;
+}
+
+.prevtext {
+	width: 100%;
+	height: auto;
+	background: rgb(255,255,255);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: column;
+	text-align: center;
+}
+
+#tvtitle {
+	font-family: 'Aldrich', sans-serif;
+}
+
+#awatitle {
+	font-family: 'Orbitron', sans-serif;
+}
+
+.prevaward1 {
+	font-size: 6vw;
+	font-weight: 700;
+}
+
+.prevaward {
+	font-size: 5vw;
+	margin: 2vw auto 2vw auto;
+}
+
+#ltt1 {
+	margin-bottom: 10vw;
+}
+
+#ltt2 {
+	margin-bottom: 10vw;
+}
+
+#ltt3 {
+	margin-bottom: 10vw;
+}
+
+#sec2 {
+	width: 100%;
+	height: auto;
+	background-image: url("Media/race2.jpeg");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	background-attachment: fixed;
+}
+
+#sec2cover {
+	height: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: rgba(0,139,233,0.5);
+}
+
+.st2box {
+	height: auto;
+	width: 70%;
+	margin: 10%;
+	padding: 5%;
+	background: rgb(255,255,255);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: column;
+	text-align: center;
+}
+
+.st2box p {
+	font-size: 6vw;
 	font-family: 'Montserrat', sans-serif;
 }
 
-#fozmat {
-	background-image: url("Media/750_9694.jpg");
-	background-position: center;
+.st2box h1 {
+	font-size: 10vw;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#sec3img {
+	width: 100%;
+	height: 70vw;
+	background-image: url("Media/2019wf.jpeg");
+  	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-	height: 500px;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
 }
 
-#capfozmat {
-	margin-top: 35px;
-}
-
-#faimgbox {
-	height: 800px;
-}
-
-#mtline {
-	width: 550px;
-}
-
-#nh {
-	background-image: url("Media/-3830964341078798155_IMG_1590.JPG");
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	height: 600px;
-}
-
-#of {
-	background-image: url("Media/5F39C706-EEFB-4963-95B0-215CF4774D08.JPG");
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	height: 600px;
-}
-
-#jz {
-	background-image: url("Media/image0.jpg");
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	height: 600px;
-}
-
-#mtcolcontainer {
+#sec3 {
+	height: auto;
 	width: 90%;
-	margin: 5%;
-	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5%;
 }
 
-#mtcolcontainer h2 {
-	font-size: 50px;
-}
-
-
-#mtcolcontainer p {
-	font-size: 35px;
-}
-
-.imgline {
-	height: 1px;
+#sec3title {
 	width: 100%;
-	background-color: rgb(0,0,0);
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	display: block;
+	font-size: 5vw;
+	margin-bottom: -4vw;
 }
 
-#mtcb {
-	height: 3600px;
-}
-
-#mtcbb {
-	height: 3580px;
-}
-
-#scb {
-	height: 1800px;
-}
-
-#scbb {
-	height: 1780px;
-}
-
-#f1swf {
-	background-image: url("Media/IMG_6235.jpeg");
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	height: 500px;
-}
-
-#simgbox {
-	height: 750px;
-}
-
-#mcb {
-	height: 1350px;
-}
-
-#mcbb {
-	height: 1330px;
-}
-
-#ostitle {
-	color: #FFFFFF;
-	width: 100%;
-	margin-bottom: -5px;
-}
-
-#sponsorblockcontainer {
-	width: 100%;
-	height: auto;
+#sec3buttoncontainer {
 	display: flex;
-	flex-direction: column;
-}
-
-.sponsorblock {
-	flex-grow: 1;
-	margin: 25px;
-	border-radius: 30px;
-	height: 400px;
-}
-
-.sponsorlink {
-	width: 100%;
-	height: 400px;
-	display: flex;
-	align-content: center;
 	justify-content: center;
-	border-radius: 30px;
-	transition: 0.4s;
-	background-color: #FFFFFF;
+	align-content: center;
+	flex-flow: column;
 }
 
-.sponsorlink:hover {
-	background-color: rgba(255,255,255,0);
+.button {
+	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	padding: 1.5vw;
+	font-size: 19px;
+	height: 15vw;
+	width: 60vw;
+	text-align: center;
+	text-justify: none;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 5vw auto 5vw auto;
 }
 
-.sponsorlink:hover div {
-	filter:contrast(0%) brightness(500%);
+.buttona {
+	text-align: center;
+	text-justify: none;
+	background: rgb(255,255,255);
+	margin: 0px;
+	height: 15vw;
+	width: 60vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+	font-weight: 400;
+	color: rgb(0,0,0);
+	transition: 0.3s;
+	font-size: 5vw;
 }
 
-.sponsorbox {
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size:contain;
-	height: 350px;
-	width: 80%;
-	align-self: center;
-	transition: 0.4s;
+.buttona:hover {
+	text-decoration: none;
+	color: rgb(255,255,255);
+	background: rgba(255,255,255,0);
 }
 
-#simscale {
-	background-image: url("Media/SimScale_logo.png");
-}
-
-#keyshot {
-	background-image: url("Media/keyshot.png");
-}
-
-#tt {
-	background-image: url("Media/TTlogo.png");
-}
-
-#oscb {
-	height: 2000px;
-}
-
-#bha {
-	background-image: url("Media/bhlauto.png");
-}
-
-.contactimg {
-	width: 1em;
-	height: auto;
-	margin-right: 20px;
-	margin-bottom: -0.1em;
-}
-
-#slb {
-	height: 200px;
-}
-
-#sl {
-	height: 180px;
-}
-
-#stxtline {
-	width: 500px;
-}
-
-#f1sglb {
-	height: 200px;
-	margin-top: 50px;
-}
-
-#f1salb {
-	height: 200px;
-	margin-top: 50px;
-}
-
-#f1sal {
-	height: 180px;
-}
-
-#f1sgl {
-	height: 180px;
-}
-
-#cucb {
-	height: 750px;
-}
-
-#cucbb {
-	height: 730px;
+.buttona span {
+	margin: auto;
 }
