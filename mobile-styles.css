@@ -426,7 +426,7 @@ html {
 
 .memberbox {
 	width: 90vw;
-	margin: 5vw;
+	margin: 4.5vw;
 	background: rgb(255,255,255);
 	display: flex;
 	justify-content: center;
@@ -477,3 +477,87 @@ html {
 	font-size: 4vw;
 	margin: 5vw;
 }
+
+#sec5 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: column;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#sponsorship {
+	margin-bottom: 20vw;
+}
+
+#mentorship {
+	color: rgb(255,255,255);
+	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	transform: skewY(-20deg);
+	padding: 20vw 0 20vw 0;
+}
+
+#mentorcontainer {
+	transform: skewY(20deg);
+}
+
+#sponsorcontainer h1 {
+	padding: 0 5vw;
+	font-size: 10vw;
+	text-align: center;
+}
+
+#mentorcontainer h1 {
+	padding: 0 5vw;
+	font-size: 10vw;
+	text-align: center;
+}
+
+#sponsorcontainer p {
+	padding: 0 5vw;
+	font-size: 5vw;
+	text-align: justify;
+}
+
+#mentorcontainer p {
+	padding: 0 5vw;
+	font-size: 5vw;
+	text-align: justify;
+}
+
+/*
+
+#button3 {
+	background: rgb(255,255,255);
+}
+
+#buttonbk1 {
+	background: rgb(22,65,143);
+	width: 250px;
+	height: 50px;
+}
+
+#buttona3 {
+	color: rgb(255,255,255);
+	background: rgba(255,255,255,0);
+	text-align: center;
+	text-justify: none;
+	margin: 0px;
+	height: 15vw;
+	width: 60vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+	font-weight: 400;
+	transition: 0.3s;
+	font-size: 5vw;
+}
+
+#buttona3:hover {
+	background: rgba(255,255,255,1);
+	color: rgb(0,0,0);
+}
+
+*/
