@@ -16,7 +16,7 @@ header {
 	height: 50px;
 	width: auto;
 	padding: 20px;
-	filter: brightness(200);
+	filter: contrast(0) brightness(200);
 	transition: 0.8s;
 }
 
@@ -811,7 +811,7 @@ body {
 }
 
 #sec7 {
-	height: 90vh;
+	height: 100vh;
 	width: 100%;
 	background-image: url("Media/race3.jpeg");
   	background-position: center;
@@ -821,7 +821,7 @@ body {
 }
 
 #sec7container {
-	height: 90vh;
+	height: 100vh;
 	width: 100%;
 	background: rgba(0,139,233,0.5);
 	display: flex;
@@ -829,12 +829,46 @@ body {
 	align-content: center;
 }
 
-#secboxcontainer {
+#sec7box {
 	margin: auto;
+	width: auto;
+}
+
+#sec7boxcontainer {
+	width: auto;
+	padding: 5vw;
+	background: rgb(255,255,255);
 }
 
 #contacttitle {
 	margin-top: -10px;
+}
+
+#contactcontainer {
+	width: auto;
+	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+}
+
+.contacta {
+	width: auto;
+	background: rgb(255,255,255);
+	margin: 20px;
+	transition: 0.3s;
+	filter: contrast(1) brightness(1);
+}
+
+.contacta:hover {
+	background: rgba(255,255,255,0);
+	filter: contrast(0) brightness(200);
+}
+
+.contacta img {
+	width: 15vw;
+	height: 15vw;
 }
 
 .buttonicon img {
@@ -842,6 +876,18 @@ body {
 	width: auto;
 	margin: 0;
 	padding: 20%;
+}
+
+#ca2 {
+	margin-left: 0;
+}
+
+#ca4 {
+	margin-left: 0;
+}
+
+#ca3 {
+	margin-left: 0;
 }
 
 #c1a {
@@ -930,5 +976,4 @@ footer {
 #footerbmgs img {
 	height: 40px;
 	width: 40px;
-	
 }
