@@ -668,6 +668,50 @@ html {
 	background-attachment: fixed;
 }
 
+#sec7container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+#sec7box {
+	margin: auto;
+	margin-top: 10vw;
+	margin-bottom: 10vw;
+	background: rgb(255,255,255);
+}
+
+#sec7boxcontainer {
+	padding: 3vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+#contactcontainer {
+	width: auto;
+	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+}
+
+.contacta {
+	background: rgb(255,255,255);
+	transition: 0.3s;
+	filter: contrast(1) brightness(1);
+}
+
+.contacta:hover {
+	background: rgba(255,255,255,0);
+	filter: contrast(0) brightness(200);
+}
+
+.contacta img {
+	width: 59vw;
+	height: 59vw;
+}
+
 footer {
 	height: 200px;
 	background: rgb(35,50,64);
