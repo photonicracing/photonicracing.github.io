@@ -36,7 +36,7 @@
   color: rgb(0,0,0);
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -74,6 +74,7 @@ html {
 	transition: 0.4s;
 	width: 100%;
 	margin-top: -10px;
+	position: fixed;
 }
 
 #menubarbox {
@@ -101,7 +102,7 @@ html {
 }
 
 .menubarlink a {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 50px;
 	color: rgb(0,0,0);
 	text-decoration: none;
@@ -129,7 +130,7 @@ html {
 #sec1 {
 	height: auto;
 	width: 90%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	padding: 5%;
 }
 
@@ -161,6 +162,7 @@ html {
   	background-size: cover;
 	margin-top: 5vw;
 	margin-bottom: 5vw;
+	border-radius: 8vw;
 }
 
 .awardstitle {
@@ -204,13 +206,14 @@ html {
 #prevteams {
 	width: 90%;
 	height: auto;
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,255),rgb(0,130,255),rgb(0,83,172));
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	flex-flow: column;
 	padding:5%;
 	margin-bottom: 5vw;
+	border-radius: 8vw;
 }
 
 .prevteamcontainer {
@@ -221,6 +224,7 @@ html {
 	justify-content: center;
 	align-content: center;
 	flex-flow: column;
+	border-radius: 4vw;
 }
 
 .prevlogo {
@@ -232,6 +236,7 @@ html {
 
 #centralcont {
 	margin: 5vw 0 5vw 0;
+	border-radius: 4vw;
 }
 
 .prevtitle {
@@ -249,6 +254,7 @@ html {
 	align-content: center;
 	flex-flow: column;
 	text-align: center;
+	border-radius: 4vw;
 }
 
 #tvtitle {
@@ -311,16 +317,17 @@ html {
 	align-content: center;
 	flex-flow: column;
 	text-align: center;
+	border-radius: 8vw;
 }
 
 .st2box p {
 	font-size: 6vw;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 .st2box h1 {
 	font-size: 10vw;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 #sec3img {
@@ -332,12 +339,13 @@ html {
   	background-size: cover;
 	margin-top: 5vw;
 	margin-bottom: 5vw;
+	border-radius: 8vw;
 }
 
 #sec3 {
 	height: auto;
 	width: 90%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	padding: 5%;
 }
 
@@ -355,7 +363,7 @@ html {
 }
 
 .button {
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,255),rgb(0,130,255),rgb(0,83,172));
 	padding: 1.5vw;
 	font-size: 19px;
 	height: 15vw;
@@ -366,6 +374,7 @@ html {
 	justify-content: center;
 	align-content: center;
 	margin: 5vw auto 5vw auto;
+	border-radius: 5vw;
 }
 
 .buttona {
@@ -383,6 +392,7 @@ html {
 	color: rgb(0,0,0);
 	transition: 0.3s;
 	font-size: 5vw;
+	border-radius: 3.5vw;
 }
 
 .buttona:hover {
@@ -406,7 +416,7 @@ html {
 }
 
 .st2container {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	height: auto;
 	width: 100%;
 	background: rgba(0,139,233,0.5);
@@ -432,11 +442,13 @@ html {
 	justify-content: center;
 	align-content: center;
 	flex-flow: column;
+	border-radius: 8vw;
 }
 
 .memberimg {
 	width: 90vw;
 	height: 90vw;
+	border-radius: 8vw;
 }
 
 #nj {
@@ -484,7 +496,7 @@ html {
 	justify-content: center;
 	align-content: center;
 	flex-flow: column;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 #sponsorship {
@@ -493,13 +505,11 @@ html {
 
 #mentorship {
 	color: rgb(255,255,255);
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
-	transform: skewY(-20deg);
-	padding: 20vw 0 20vw 0;
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,255),rgb(0,130,255),rgb(0,83,172));
+	padding: 5vw 0 5vw 0;
 }
 
 #mentorcontainer {
-	transform: skewY(20deg);
 }
 
 #sponsorcontainer h1 {
@@ -555,9 +565,10 @@ html {
 }
 
 #buttonbk1 {
-	background: rgb(22,65,143);
+	background: rgb(0,130,255);
 	width: 60vw;
 	height: 15vw;
+	border-radius: 3.5vw;
 }
 
 #buttona3 {
@@ -594,9 +605,9 @@ html {
 	justify-content: center;
 	align-content: center;
 	flex-flow: column;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	background: rgb(35,50,64);  
-	margin-top: -20vw;
+	margin-top: -40vw;
 }
 
 #sec6title h1 {
@@ -615,12 +626,14 @@ html {
 	justify-content: center;
 	align-content: center;
 	flex-flow: column;
+	border-radius: 8vw;
 }
 
 .sponsorimg {
 	width: 85vw;
 	margin: 5%;
 	background: rgb(25,40,54);
+	border-radius: 5.5vw;
 }
 
 .acont {
@@ -631,6 +644,7 @@ html {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	border-radius: 5.5vw;
 }
 
 .sponsorimg a {
@@ -642,6 +656,7 @@ html {
 	align-content: center;
 	filter: contrast(0) brightness(100);
 	transition: 0.3s;
+	border-radius: 5.5vw;
 }
 
 .sponsorimg a:hover {
@@ -653,6 +668,7 @@ html {
 	width: 100%;
 	height: auto;
 	margin: auto;
+	border-radius: 5.5vw;
 }
 
 .buttontext2 {
@@ -693,7 +709,8 @@ html {
 
 #contactcontainer {
 	width: auto;
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,255),rgb(0,130,255),rgb(0,83,172));
+	border-radius: 8vw;
 }
 
 .contacta {
@@ -702,6 +719,7 @@ html {
 	filter: contrast(1) brightness(1);
 	display: block;
 	margin: 2vw;
+	border-radius: 6vw;
 }
 
 .contacta:hover {
@@ -712,6 +730,7 @@ html {
 .contacta img {
 	width: 59vw;
 	height: 59vw;
+	border-radius: 6vw;
 }
 
 footer {

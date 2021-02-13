@@ -59,8 +59,9 @@ body {
 }
 
 .topmenudiv {
-	height: 20px;
+	height: 18px;
 	width: 2px;
+	border-radius: 1px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	background: rgb(255,255,255);
@@ -77,8 +78,8 @@ body {
 
 .menulink a {
 	background-color: rgba(0,139,233,0);
-	border-radius: 5px;
-	height: 22px;
+	border-radius: 10px;
+	height: auto;
 	width: auto;
 	padding-left:8px;
 	padding-right:8px;
@@ -89,7 +90,7 @@ body {
 	margin-left: 4px;
 	margin-right: 4px;
 	color: inherit;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 17px;
 	text-decoration: none;
 	text-align: center;
@@ -164,10 +165,11 @@ body {
   	background-size: cover;
 	font-size: 1.4vw;
 	height: 19em;
+	border-radius: 30px;
 }
 
 .st1title {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 25px;
 	margin-top: -35px;
 }
@@ -176,11 +178,12 @@ body {
 	width: 100%;
 	height: 2px;
 	background: rgb(0,0,0);
+	border-radius: 1px;
 }
 
 .st1content {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.4vw;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5vw;
 	text-align: justify;
 }
 
@@ -206,9 +209,9 @@ body {
 	width: 12%;
 	padding-left:4%;
 	padding-right:4%;
-	font-size: 23px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-size: 26px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 900;
 	text-align: center;
 	display: inline;
  	color: rgb(0,139,233);
@@ -225,8 +228,8 @@ body {
 	margin-right: 3%;
 	height: 2px;
 	background: rgb(0,0,0);
-	margin-top: 34px;
-	margin-bottom: 34px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 .awardstitle {
@@ -236,11 +239,14 @@ body {
 }
 
 .awardstitle h2 {
-	height: 70px;
+	height: 32px;
 	width: 32%;
+	font-size: 28px;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: normal;
+	margin-top: 64px;
+	margin-bottom: 64px;
 }
 
 #prevteams {
@@ -248,11 +254,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,225),rgb(0,130,255),rgb(0,83,172));
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-top: -30px;
 	margin-bottom: 3%;
+	border-radius: 50px;
 }
 
 .prevteamcontainer {
@@ -264,7 +271,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	
+	border-radius: 30px;
 }
 
 #centralcont {
@@ -315,13 +322,13 @@ body {
 	font-size: 19px;
 	font-weight: 700;
 	line-height: 23px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	inline-display: block;
 	vertical-align: middle;
 }
 
 .prevaward {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	inline-display: block;
 	vertical-align: middle;
@@ -361,12 +368,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	border-radius: 50px;
 }
 
 .st2boxcontainer {
 	margin: auto;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 #nats {
@@ -389,6 +397,7 @@ body {
   	background-size: cover;
 	font-size: 1.4vw;
 	height: 29em;
+	border-radius: 30px;
 }
 
 #sec3buttoncontainer {
@@ -413,7 +422,7 @@ body {
 }
 
 .button {
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,225),rgb(0,130,255),rgb(0,83,172));
 	padding: 4px;
 	font-size: 19px;
 	height: 50px;
@@ -422,7 +431,8 @@ body {
 	text-justify: none;
 	display: flex;
 	justify-content: center;
-	align-content: center
+	align-content: center;
+	border-radius: 20px;
 }
 
 .buttona {
@@ -439,6 +449,7 @@ body {
 	font-weight: 400;
 	color: rgb(0,0,0);
 	transition: 0.3s;
+	border-radius: 16px;
 }
 
 .buttona:hover {
@@ -474,7 +485,7 @@ body {
 #sec4title h1 {
 	width: 100%;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	font-size: 50px;
 	color: rgb(255,255,255);
@@ -496,12 +507,14 @@ body {
 	background: rgb(255,255,255);
 	margin-bottom: 100px;
 	display: flex;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	border-radius: 40px;
 }
 
 .memberimg {
 	height: 100%;
 	width: 40%;
+	border-radius: 40px;
 }
 
 #nj {
@@ -561,55 +574,61 @@ body {
 	width: 100%;
 	display: flex;
 	background: rgb(255,255,255);
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,255),rgb(70,178,255),rgb(0,130,255),rgb(0,83,172));
 }
 
 #sponsorship {
 	width: 50%;
 	min-height: 500px;
 	background: rgb(255,255,255);
-	transform: skewX(20deg);
-	margin-left: -100px;
-	padding-left:150px;
-	margin-right: -120px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-radius: 0 50px 50px 0;
 }
 
 #mentorship {
 	width: 50%;
 	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 #sponsorcontainer {
-	transform: skewX(-20deg);
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	z-index: 10;
+	width: 40vw;
+	height: 100%;
+	margin: auto;
 }
 
 #mentorcontainer {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	color: rgb(255,255,255);
 	z-index: 5;
-	margin-right: -10%;
+	width: 40vw;
+	height: 100%;
+	margin: auto;
 }
 
 #sponsortitle {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 45px;
 	color: rgb(0,0,0);
 }
 
 #mentortitle {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 45px;
 	color: rgb(255,255,255);
-	margin-right: 7%;
-	float: right;
 	width: 80%;
 }
 
 .sec5div {
-	width: 80%;
+	width: 100%;
 	height: 2px;
+	border-radius: 1px;
 }
 
 #sponsordiv {
@@ -618,33 +637,17 @@ body {
 
 #mentordiv {
 	background: rgb(255,255,255);
-	margin-right: 7%;
-	float: right;
 }
-
-#s1 {
-	width: 82%;
-	text-align: justify;
-}
-
-#s2 {
-	width: 88%;
-	text-align: justify;
-}
-
-#s3 {
-	width: 94%;
-	text-align: justify;
-}
-
 #mentorcontainer p {
-	float: right;
 	text-align: justify;
-	margin-right: 7%;
+}
+
+#sponsorcontainer p {
+	text-align: justify;
 }
 
 #prospectus {
-	width: 92%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -653,24 +656,12 @@ body {
 }
 
 #mentorcontact {
-	width: 75%;
 	display: flex;
+	width: 100%;
 	justify-content: center;
 	align-content: center;
 	margin-top: 30px;
-	float: right;
-}
-
-#m1 {
-	width: 70%;
-}
-
-#m2 {
-	width: 65%;
-}
-
-#m3 {
-	width: 60%;
+	margin-bottom: 30px;
 }
 
 #button3 {
@@ -678,9 +669,10 @@ body {
 }
 
 #buttonbk1 {
-	background: rgb(22,65,143);
+	background: rgb(0,130,255);
 	width: 250px;
 	height: 50px;
+	border-radius: 16px;
 }
 
 #buttona3 {
@@ -715,7 +707,7 @@ body {
 #sec6title h1 {
 	width: 100%;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	font-size: 50px;
 	color: rgb(255,255,255);
@@ -724,11 +716,13 @@ body {
 }
 
 #selcont {
-	width: 85vw;
+	width: calc(80vw + 50px);
 	margin: auto;
 	height: auto;
 	display: flex;
 	flex-flow: wrap;
+	border-radius: 40px;
+	background: rgb(25,40,54);
 }
 
 #sponsorelements {
@@ -743,8 +737,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	background: rgb(25,40,54);
 	padding:10px;
+	border-radius: 30px;
 }
 
 .sponsorimg a {
@@ -756,6 +750,7 @@ body {
 	align-content: center;
 	filter: contrast(0) brightness(100);
 	transition: 0.3s;
+	border-radius: 30px;
 }
 
 .sponsorimg a:hover {
@@ -771,12 +766,14 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	border-radius: 30px;
 }
 
 .sponsorimg a img {
 	width: 100%;
 	height: auto;
 	margin: auto;
+	border-radius: 30px;
 }
 
 #sim {
@@ -838,6 +835,7 @@ body {
 	width: auto;
 	padding: 5vw;
 	background: rgb(255,255,255);
+	border-radius: 50px;
 }
 
 #contacttitle {
@@ -846,11 +844,12 @@ body {
 
 #contactcontainer {
 	width: auto;
-	background: -webkit-linear-gradient(-45deg,rgb(0,229,225),rgb(0,139,233),rgb(0,27,106));
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,225),rgb(0,130,255),rgb(0,83,172));
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	flex-direction: row;
+	border-radius: 45px;
 }
 
 .contacta {
@@ -859,6 +858,7 @@ body {
 	margin: 20px;
 	transition: 0.3s;
 	filter: contrast(1) brightness(1);
+	border-radius: 25px;
 }
 
 .contacta:hover {
