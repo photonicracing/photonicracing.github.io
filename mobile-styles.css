@@ -786,3 +786,42 @@ footer {
 	height: 160px;
 	width: 160px;
 }
+
+#sec8 {
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: column;
+}
+
+#sec8 h1 {
+	padding: 0 5vw;
+	font-size: 10vw;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+}
+
+#gfm {
+	margin: auto;
+	width: 90vw;
+	padding: 2.5vw;
+	border-radius: 15vw;
+	background: -webkit-linear-gradient(-45deg,rgb(70,178,255),rgb(0,130,255),rgb(0,83,172));
+}
+
+#gfm a {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: auto;
+	width: 90vw;
+	border-radius: 12.5vw;
+	background: #FFFFFF;
+}
+
+#gfm a img {
+	width: 90vw;
+	height: auto;
+}
+
