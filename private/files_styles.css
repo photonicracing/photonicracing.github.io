@@ -175,6 +175,7 @@ body {
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	flex-flow: column;
 	font-family: 'Nunito', sans-serif;
 	font-size: 20px;
 }
