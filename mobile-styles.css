@@ -118,6 +118,12 @@ html {
 	color: rgb(0,0,0);
 }
 
+#svg {
+	fill: rgb(0,139,233);
+	transition: 0.3s;
+	margin-top: 180px ;
+}
+
 #coverimg {
 	background-image: url("Media/carstate.png");
 	width: 100%;
