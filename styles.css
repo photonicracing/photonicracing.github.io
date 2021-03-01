@@ -959,10 +959,13 @@ footer {
 }
 
 #up {
-	font-family: sans-serif;
+	font-family: 'Nunito', sans-serif;
 	text-decoration: none;
 	margin: auto;
 	color: rgb(255,255,255);
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 #up a {
@@ -970,6 +973,11 @@ footer {
 	text-decoration: none;
 	margin: auto;
 	color: rgb(255,255,255);
+}
+
+#up div {
+	font-family: 'Nunito', sans-serif;
+	margin-left: 150px;
 }
 
 #footerbmgs {
