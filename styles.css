@@ -548,7 +548,7 @@ body {
 
 .memberdes p {
 	text-align: justify;
-	font-size:17px;
+	font-size:1vw ;
 }
 
 .memberdiv {
@@ -646,10 +646,12 @@ body {
 }
 #mentorcontainer p {
 	text-align: justify;
+	font-size: 1vw;
 }
 
 #sponsorcontainer p {
 	text-align: justify;
+	font-size: 1vw;
 }
 
 #prospectus {
@@ -722,7 +724,7 @@ body {
 }
 
 #selcont {
-	width: calc(80vw + 50px);
+	width: calc(80vw + 60px);
 	margin: auto;
 	height: auto;
 	display: flex;
@@ -738,8 +740,8 @@ body {
 }
 
 .sponsorimg {
-	width: 20vw;
-	height: 20vw;
+	width: 16vw;
+	height: 16vw;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -782,34 +784,67 @@ body {
 	border-radius: 30px;
 }
 
-#sim {
+#b1 {
 	padding-right: 0;
 	padding-bottom: 0;
 }
 
-#key {
+#b2 {
 	padding-right: 0;
 	padding-bottom: 0;
 }
 
-#teach {
+#b3 {
 	padding-right: 0;
 	padding-bottom: 0;
 }
 
-#tro {
+#b4 {
+	padding-bottom: 0;
+	padding-right: 0;
+}
+
+#b5 {
 	padding-bottom: 0;
 }
 
-#cd {
+#b6 {
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+#b7 {
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+#b8 {
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+#b9 {
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+#b10 {
+	padding-bottom: 0;
+}
+
+#b11 {
 	padding-right: 0;
 }
 
-#black {
+#b12 {
 	padding-right: 0;
 }
 
-#bmgs {
+#b13 {
+	padding-right: 0;
+}
+
+#b14 {
 	padding-right: 0;
 }
 
